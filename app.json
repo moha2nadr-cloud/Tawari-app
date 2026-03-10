@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name":        "طوارئ القرية",
+    "slug":        "tawari-village-app",
+    "version":     "1.0.0",
+    "orientation": "portrait",
+    "icon":        "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#080d1a"
+    },
+    "android": {
+      "package":     "com.emergency.village",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "CHANGE_WIFI_STATE",
+        "ACCESS_WIFI_STATE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "التطبيق يحتاج موقعك لإرسال بلاغات الطوارئ بدقة"
+        }
+      ]
+    ]
+  }
+}
